@@ -17,7 +17,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -25,8 +24,6 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -74,13 +71,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2226}
-    - Class: 114
       Script: {instanceID: 2340}
-    - Class: 114
-      Script: {instanceID: 2380}
-    - Class: 114
-      Script: {instanceID: 2460}
     - Class: 114
       Script: {instanceID: 2610}
     - Class: 114
@@ -100,12 +91,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
